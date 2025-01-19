@@ -542,8 +542,16 @@ ul.email li i {
      background: #3e0bce;
 }
 
+.blue_padding{
+	 padding: 40px 50px 55px 50px;
+}
+
 .margi_bottom {
      margin-bottom: 30px;
+}
+
+.center_content {
+	 justify-content: center;
 }
 
 
@@ -553,7 +561,8 @@ ul.email li i {
 /** about section **/
 
 .about {
-     background: url(../images/about_bg.jpg);
+     /**background: url(../images/about_bg.jpg);**/
+	 background: blue;
      background-size: cover;
      background-position: center center;
      background-repeat: no-repeat;
@@ -582,6 +591,9 @@ ul.email li i {
 
 .about_img figure {
      margin: 0;
+	 max-height: auto;
+	 max-width: auto;
+	 object-fit: contain;
 }
 
 .about_img figure img {
@@ -678,9 +690,9 @@ ul.email li i {
 /** testimonial **/
 
 .testimonial {
-     background: #3e0bce;
+     background: teal;
      padding: 90px 0;
-     margin-top: 90px;
+     margin-top: 0px;
 }
 
 .testimonial .titlepage h2 {
